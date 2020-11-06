@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f1f1;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 135%;
+    color: #333;
+}
+
+.container{
+    width: 1000px;
+    margin: 0px auto;
+    
+}
+
+#blog-post-container{
+    width: 75%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.blog-post{
+    position: relative;
+}
+.blog-text{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #aaa;
+    line-height: 22px;
+    text-align: justify;
+}
+.box{
+    background: white;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    box-shadow:0 2px 8px 2px rgba(20,23,28,.15)
+   
+}
+.p20{
+    padding: 20px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.images{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 500px;
+    max-height: 500px;
+    transition: opacity 0.3s linear;
+  
+}
+.images:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#others-container{
+    width: 24%;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding-left: 20px;   
+}
+#others-box{
+    width: 250px;
+}
+
+#author-box{
+    border-top: 1px solid rgb(0,0,0,.125);
+    padding-top: 10px;
+}
+
+#author-box img{
+    border-radius: 50%;
+    float: left;
+}
+.author-name{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+.header{
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+#others-box ul {
+    list-style: none;
+   
+}
+#others-box ul li{
+    margin-bottom: 10px;
+}
+
+.tags li{
+    list-style: none;
+    display: inline;
+    margin: 0px 15px;
+}
+
+.tag{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.btn{
+    display: inline-block;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #DD4453;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background-color 0.3s linear;
+}
+.btn:hover{
+    background-color: #363636;
+    border-color: #363636;
+
+}
+
+/*navbar*/
+#nav{
+    background-color: #333;
+}    
+    
+#nav ul{
+    list-style-type:none;
+    overflow: hidden;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s linear;
+}
+#nav li a:hover{
+    background-color: #111;
+}
+
+
+.date{
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    color: #aaa;
+    font-size: 15px;
+}
+.center{
+    text-align: center;
+}
+.blog-title{
+    font-weight: 700;
+}
+.blog-title a{
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.blog-title a:hover{
+    color: #DA4453;
+}
+
+#share{
+display: inline-block;
+   
+}
+
+#share a{
+    color: gray;
+    text-decoration: none;
+    padding-left: 25px;
+    opacity: 0.6;  
+       
+}
+#share a:hover{
+    opacity: 0.9;
+}
+
+
+.fa-facebook-square:hover{
+  color: aqua;
+
+}
+
+.fa-twitter:hover{
+    color: aqua;
+
+}
+.fa-instagram:hover{
+    color: indianred;
+}
+.fa-youtube:hover{
+    color: rgb(212, 31, 31);
+}
